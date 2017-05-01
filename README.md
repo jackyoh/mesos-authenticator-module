@@ -1,3 +1,5 @@
+Protobuf use the 2.6.1
+
 ```
 # yum install -y glog-devel gflags-devel
 ```
