@@ -1,0 +1,46 @@
+{
+  "permissive": false,
+  "register_frameworks": [
+      {
+         "principals": {"values": ["user1"]},
+         "roles": {"type": "ANY"}
+      }
+  ],
+  "run_tasks": [
+      {
+         "principals": {"values": ["user1"]},
+         "users": {"type": "ANY"}
+      }
+  ],
+  "view_frameworks": [
+      {
+         "principals": {"values": ["user1", "user2"]},
+         "users": {"type": "ANY"}
+      }
+  ],
+  "view_roles": [
+      {
+         "principals": {"values": ["user1", "user2"]},
+         "roles": {"type": "ANY"}
+      }
+
+  ],
+  "view_executors": [
+      {
+         "principals": {"values": ["user1", "user2"]},
+         "users": {"type": "ANY"}
+      }
+  ],
+  "view_tasks": [
+      {
+         "principals": {"values": ["user1", "user2"]},
+         "users": {"type": "ANY"}
+      }
+  ],
+  "get_endpoints": [
+      {
+         "principals": {"values": ["user1", "user2"]},
+         "paths": {"type": "ANY"}
+      }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "libraries":[
+     {
+        "file":"/home/user1/module/libauthen.so.1.0.0", 
+        "modules":[
+             {"name":"org_apache_mesos_TestCRAMMD5Authenticator"},
+             {"name":"org_apache_mesos_TestCRAMMD5Authenticatee"},
+             {"name":"org_apache_mesos_TestHttpBasicAuthenticator"}
+        ]
+     }
+   ]
+}
